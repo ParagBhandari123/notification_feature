@@ -5,7 +5,8 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 const Project = require('./models/project');
-const Notification = require('./models/notification');
+const Notification= require('./models/notification');
+// comment added
 
 dotenv.config();
 
